@@ -6,6 +6,7 @@ function showStars(rows){
     let pattern = '';
     for(let i = 0; i < row; i++)
       pattern += '*';
+      pattern += '**';
 
   console.log(pattern);
   }
